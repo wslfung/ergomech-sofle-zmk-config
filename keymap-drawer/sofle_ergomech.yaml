@@ -125,11 +125,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp LCLK'
+  - '&mmv MOVE_RIGHT'
+  - '&mmv MOVE_UP'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
   raise:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -190,11 +190,11 @@ layers:
   - KP DOT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp RCLK'
+  - '&msc SCRL_RIGHT'
+  - '&msc SCRL_UP'
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_DOWN'
   adjust:
   - BT CLR
   - {t: BT, h: '0'}
