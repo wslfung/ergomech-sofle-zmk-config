@@ -60,11 +60,11 @@ layers:
   - DELETE
   - Ctl+PG UP
   - Ctl+PG DN
-  - {t: adjust, h: toggle}
-  - Ctl+PG DN
-  - Ctl+Y
-  - Ctl+PG UP
-  - Ctl+Z
+  - '&mkp RCLK'
+  - RIGHT
+  - UP ARROW
+  - LEFT
+  - DOWN
   lower:
   - F1
   - F2
