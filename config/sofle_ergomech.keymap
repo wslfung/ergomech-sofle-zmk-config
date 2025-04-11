@@ -116,8 +116,7 @@
                                                             &mkp LCLK   &mmv MOVE_RIGHT  &mmv MOVE_UP      &mmv MOVE_LEFT     &mmv MOVE_DOWN
             >;
 
-            sensor-bindings = <&scroll_encoder>,
-                <&scroll_encoder>;
+            sensor-bindings = <&scroll_encoder &scroll_encoder>;
         };
 
         raise_layer {
