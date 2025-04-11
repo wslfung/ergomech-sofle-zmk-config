@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: sofle_ergomech}
 layers:
   default:
   - ESCAPE
@@ -49,21 +50,21 @@ layers:
   - /
   - RSHFT
   - MUTE
-  - Ctl+ INS
-  - Sft+ INS
+  - Ctl+INS
+  - Sft+INS
   - ENTER
   - lower
   - raise
   - lower
   - SPACE
   - DELETE
-  - Ctl+ PG UP
-  - Ctl+ PG DN
+  - Ctl+PG UP
+  - Ctl+PG DN
   - {t: adjust, h: toggle}
-  - Ctl+ PG DN
-  - Ctl+ Y
-  - Ctl+ PG UP
-  - Ctl+ Z
+  - Ctl+PG DN
+  - Ctl+Y
+  - Ctl+PG UP
+  - Ctl+Z
   lower:
   - F1
   - F2
