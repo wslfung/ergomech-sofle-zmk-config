@@ -60,7 +60,7 @@ layers:
   - DELETE
   - Ctl+PG UP
   - Ctl+PG DN
-  - {t: adjust, h: toggle}
+  - '&mkp RCLK'
   - RIGHT
   - UP ARROW
   - LEFT
