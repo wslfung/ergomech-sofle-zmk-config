@@ -125,12 +125,12 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp F1  &kp F2     &kp F3  &kp F4  &kp F5           &kp F6  &kp F7      &kp F8           &kp F9            &kp F10            &kp F11         &kp F12
-&trans  &kp GRAVE  &trans  &trans  &kp PRINTSCREEN  &trans  &kp INS     &kp HOME         &kp UP_ARROW      &kp END            &kp PG_UP       &trans
-&trans  &trans     &trans  &trans  &trans           &trans  &kp DELETE  &kp LEFT         &kp DOWN          &kp RIGHT          &kp PG_DN       &kp LEFT_GUI
-&trans  &trans     &trans  &trans  &trans           &trans  &kp MINUS   &kp EQUAL        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans          &trans
-&trans  &trans     &trans  &trans  &trans           &trans  &trans      &trans           &trans            &trans             &trans
-                                                            &mkp LCLK   &mmv MOVE_RIGHT  &mmv MOVE_UP      &mmv MOVE_LEFT     &mmv MOVE_DOWN
+&kp F12  &kp F1     &kp F2  &kp F3  &kp F4           &kp F5  &kp F6      &kp F7           &kp F8            &kp F9             &kp F10         &kp F11
+&trans   &kp GRAVE  &trans  &trans  &kp PRINTSCREEN  &trans  &kp INS     &kp HOME         &kp UP_ARROW      &kp END            &kp PG_UP       &trans
+&trans   &trans     &trans  &trans  &trans           &trans  &kp DELETE  &kp LEFT         &kp DOWN          &kp RIGHT          &kp PG_DN       &kp LEFT_GUI
+&trans   &trans     &trans  &trans  &trans           &trans  &kp MINUS   &kp EQUAL        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans          &trans
+&trans   &trans     &trans  &trans  &trans           &trans  &trans      &kp ENTER        &trans            &trans             &trans
+                                                             &mkp LCLK   &mmv MOVE_RIGHT  &mmv MOVE_UP      &mmv MOVE_LEFT     &mmv MOVE_DOWN
             >;
 
             sensor-bindings =
