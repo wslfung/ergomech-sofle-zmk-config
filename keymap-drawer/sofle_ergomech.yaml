@@ -66,6 +66,7 @@ layers:
   - LEFT
   - DOWN
   lower:
+  - F12
   - F1
   - F2
   - F3
@@ -77,7 +78,6 @@ layers:
   - F9
   - F10
   - F11
-  - F12
   - {t: ▽, type: trans}
   - '`'
   - {t: ▽, type: trans}
@@ -121,7 +121,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
