@@ -1,3 +1,16 @@
+# Sofle Hybrid Keyboard Firmware
+
+[![Build Status](../../actions/workflows/build.yml/badge.svg)](../../actions)
+[![Download Firmware](https://img.shields.io/badge/Download-Firmware-blue?logo=github)](../../releases/latest)
+
+# Rev 5 annoucement:
+We have created several version of pcb for this keyboard since it first started, but most of them are incremental changes and nothing breaks, but since May of 2025, we ship all of our Sofle hybrid keyboards with the rev5, this mark the end of the EVQ roller encoder and introducing the Roller encoder of our own. Due to this breaking changes, we update the repo and now the branch name `Default` are for the old pcb and the `sofle_hybrid_rgb_rev5` is for the rev5 pcb.
+# The Sofle hybrid is now fully supported by ZMK Studio
+The sofle Hybrid now can work with zmk studio. 
+Here is how you can use it: visit https://zmk.studio/ using Edge or Chrome.
+Locate the `studio_unlock` button (in this case, it's on the top left conner of the `lower` layer, you can see the keymap below to see it).
+Press that and you can now remap the keyboard live without having to reflash the keyboard. Note that you will need to plug the usb cable while changing the keymap, it's not working over bluetooth.
+
 # Sofle Hybrid Keyboard Guide
 This guide is for flashing the Ergomech Sofle Hybrid Keyboard. The Sofle Hybrid is 6×4+5 keys column-staggered split keyboard, using low profile Kailh Choc switches.
 Ergomech has modified the original Sofle Hybrid to include a 5 way switch on the right side keyboard instead of a rotary encoder.
